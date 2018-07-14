@@ -205,6 +205,8 @@ Surjith S M / @surjithctly
 body {
   font-family: "Roboto", sans-serif; }
 
+  
+
 .h1,
 h1 {
   font-size: 52px;
@@ -246,7 +248,7 @@ h6 {
   font-weight: 400; }
 
 p {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.8; }
 
@@ -449,7 +451,7 @@ button {
  * Header
  * ----------------------------------------------- */
 .slider-bg {
-  padding-top: 80px; }
+  padding-top: 10px; }
 
 .default-header {
   padding: 170px 0 140px; }
@@ -1407,27 +1409,37 @@ textarea {
   height: 200px;
   margin: 12px 0 0; }
 
+  .form-control-feedback {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  
+  .form-control {
+    padding-left: 30px!important;
+  }
+
 .address-block {
-  margin: 60px 0 0;
+  margin: 40px 0PX 10PX;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s; }
   .address-block ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 0 70px; }
+    margin: 10px 40px 20px 40px; }
     .address-block ul li {
-      float: left;
-      margin: 0 0 0 0px; }
+      float: right;
+      margin: 10px 2px 1px 5px; }
       .address-block ul li a {
         border: 0px solid #00bfff;
-        padding: 7px 14px;
-        color: #2a2e2f; }
+        padding: 10px 10px;
+        color: #2490f4; }
         .dark-theme .address-block ul li a {
           color: #00bfff;
           opacity: 0.4; }
       .address-block ul li :hover {
-        opacity: 0.6; }
+        opacity: 0.4; }
         .dark-theme .address-block ul li :hover {
           opacity: 1; }
 
@@ -1842,3 +1854,10 @@ blockquote {
   transform: rotate(-45deg);
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+  .refjc a {
+    text-decoration: none }
+  a:link {
+    color: rgb(21, 255, 0) }
+  a:visited {
+    color: rgb(27, 8, 27) }

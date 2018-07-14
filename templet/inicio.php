@@ -15,7 +15,7 @@
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="RRDHS99T9CPXW">
-                                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, seguro y rápido.">
 
 
                                     <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
@@ -33,8 +33,8 @@
                         <div class="screen">
                             <div class="screen-slider owl-carousel owl-theme">
                                 <div class="item"><img src="<?php $this->url_templet(); ?>images/screen1.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen1.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen1.png" alt="#"></div>
+                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen2.png" alt="#"></div>
+                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen3.png" alt="#"></div>
                             </div>
                         </div>
                     </div>
@@ -54,9 +54,10 @@
                     <?php $this->pnt('landing_divisor1_titulo','Perfect landing page for any App'); ?>
                     </h1>
 
-                    <p class="mb-5 jmy_web_div" data-page="inicio" id="landing_divisor1_text">
-                    <?php $this->pnt('landing_divisor1_text','You can create custom iOS and macOS apps for your business using Swift, our open source programming language. Apps that have the power to transform workflows, improve client relationships, and boost your productivity.'); ?>
-                    </p> 
+                    <div class="mb-5 jmy_web_div" data-page="inicio" id="landing_divisor1_text" data-editor="si">
+                    <?php $this->pnt('landing_divisor1_text','You 0 '); ?>
+                    </div> 
+                     
                    <?php /* <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
                     <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a>*/ ?>
 
@@ -66,6 +67,46 @@
     </section> 
     <!--//End variation -->
 
+<?php /*
+<section class="space" id="features">
+    <div class="container">
+        <div class="row justify-content-center center-block">
+            <div class="col-md-8">
+                <div class="title-block">
+                <h2 class="reveal fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Main Features</h2>
+                <p class="reveal fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Shocase main features of your app or tell them how the app works using a three step process. Its easy. You may also add some descriptions to this section.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row featured-wrap">
+            <div class="col-md-4 featured-item reveal fadeIn" style="visibility: visible; animation-name: fadeIn;"> <i class="pe pe-7s-graph1" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">Simple &amp; Powerful</h4>
+            <p class="pb-4">Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"> <i class="pe pe-7s-gleam" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">Minimal design</h4>
+            <p class="pb-4">Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;"> <i class="pe pe-7s-config" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">Powerful Integrations</h4>
+            <p class="pb-4">Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;"> <i class="pe pe-7s-edit mt-4" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">Customizable</h4>
+            <p>Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeIn;"> <i class="pe pe-7s-graph3 mt-4" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">Improve your sales</h4>
+            <p>Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;"> <i class="pe pe-7s-help2 mt-4" aria-hidden="true"></i>
+            <h4 class="mb-3 mt-3">24/7 Support</h4>
+            <p>Apps that have the power to transform workflows, improve client relationships, and boost your productivity.</p>
+            </div>
+        </div>
+    </div>
+    
+    </section> */ ?>   
 
 
 
@@ -201,10 +242,10 @@
                                     <div class=""> <input class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre" name="name" placeholder="Nombre"> </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class=""> <input  class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" name="email" placeholder="Email"> </div>
+                                    <div class="has-feedback"><i class="fa fa-whatsapp form-control-feedback" aria-hidden="true" style="color:green"></i> <input  class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" name="email" placeholder="Whatsapp"> </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class=""> <textarea class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Mensaje" name="message" placeholder="Message" rows="2"></textarea> </div>
+                                    <div class=""> <textarea class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Message" name="message" placeholder="Mensaje" rows="2"></textarea> </div>
                                       <div class="text-center">
 
                                        <button id="contacto_inicio" class="btn btn-primary mt-4 jmy_web_contacto_enviar"  data-formulario="contacto_inicio">Enviar<span class="pe-7s-angle-right-circle ml-3"></span></button>
@@ -219,22 +260,45 @@
                 <div class="col-md-4">
                     <div class="address-block">
                         <div class="address reveal fadeInUp"> <span class="pe-7s-map-marker"></span>
-                            <p class="jmy_web_div" data-page="inicio" id="direccion">
-                            <?php $this->pnt('direccion','481 Boston St. <br> Mountain View, CA 94043'); ?></p>
-                        </div>
-                        <div class="address reveal fadeInUp" data-wow-delay="0.3s"> <span class="pe-7s-mail"></span>
-                            <p class="jmy_web_div" data-page="inicio" id="correo">
+                            <p class="text-lefth">
+									<a href="<?php 
+		                      $this->pnt( 'inicio_disenadopor_href', '#'); 
+							?>" title="" target="_blank" class="disenado jmy_web_div refjc" id="inicio_disenadopor" data-page="inicio" data-editor="no" style="text-decoration: none"><?php 
+		                      $this->pnt( 'inicio_disenadopor',
+										  '481 Boston St. <br> Mountain View, CA 94043' 
+								); 
+                            ?></a></p>
+                            
+                            </div>
+                        <div class=" "  data-wow-delay="0.3s">
+                        &emsp;&emsp;<h3 style="display:inline-block">
+                            <i class="fa fa-whatsapp" aria-hidden="true" ></i>
+                            </h3>
+                            &emsp;
+                            <p class="jmy_web_div" data-page="inicio" id="correo" style="display:inline-block">
                             <?php $this->pnt('correo','sales@appland.com <br> support@appland.com '); ?></p>
                         </div>
                         <div class="address reveal fadeInUp" data-wow-delay="0.6s"> <span class="pe-7s-call"></span>
                             <p class="jmy_web_div" data-page="inicio" id="telefono">
                             <?php $this->pnt('telefono','+1 (223) 243 1208 <br> +1 (351) 561 7041'); ?></p>
-                        </div>
-                        <ul class="reveal fadeInUp" data-wow-delay="0.9s">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+                        </div> 
+                        <div data-wow-delay="0.9s">
+                        <b> 
+                        &emsp;&emsp;<h5 style="display:inline-block"><i class="fa fa-facebook" size="100px" aria-hidden="true"></i> </h5>
+                        &emsp;&emsp;<p style="display:inline-block; " class="text-lefth">
+                                <h5 style="display:inline-block">
+                                <a href="<?php 
+                                $this->pnt( 'ficio_disenadopor_href', '#'); 
+                                ?>" title="facebook"class="disenado jmy_web_div" style="text-decoration: none" target="_blank" id="ficio_disenadopor" data-page="inicio" data-editor="no"><?php  
+                                $this->pnt( 'ficio_disenadopor',
+                                            'Sayer Culhuacán'
+                                    ); 
+                                ?></a></h5>
+
+                                </p> 
+                                
+                            </b>
+                                </div>
                     </div>
                 </div>
             </div>

@@ -34,9 +34,9 @@ define(	"DB_JMY_ADD_ID_D",true); //Agregar campos faltantes en la base de datos
 define(	"DB_JMY_ADD_TABLA",true); //Agregar Tablas faltantes en la base de datos
 /*MySQL*/
 define(	"DB_HO","localhost"); //servidor
-define(	"DB_US","root"); //usuario
-define(	"DB_PA",""); //contrase�a
-define(	"DB_DB","sayer"); //Base de datos
+define(	"DB_US","b2p8j8g2_juanjc"); //usuario
+define(	"DB_PA","iop785236"); //contrase�a
+define(	"DB_DB","b2p8j8g2_sayer"); //Base de datos
 
 
 /* Definiciones de correo */
